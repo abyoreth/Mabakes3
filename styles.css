@@ -33,7 +33,7 @@ img { max-width: 100%; display: block; }
 
 /* Hero */
 .hero { position: relative; min-height: 86vh; display: grid; place-items: center; overflow: hidden; }
-.hero-bg { position: absolute; inset: 0; background: url('assets/images/01.jpg') center/cover no-repeat; filter: saturate(.9) contrast(1.05); transform: scale(1.1); animation: subtle-pan 16s ease-in-out infinite alternate; }
+.hero-bg { position: absolute; inset: 0; background: url('01.jpg') center/cover no-repeat; filter: saturate(.9) contrast(1.05); transform: scale(1.1); animation: subtle-pan 16s ease-in-out infinite alternate; }
 .hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(0,0,0,.25), rgba(0,0,0,.45)); }
 .hero-content { position: relative; z-index: 1; text-align: center; color: #fff; padding: 0 2rem; }
 .eyebrow { font-family: 'Sacramento', serif; font-size: 2rem; letter-spacing: 2px; margin: 0 0 .5rem; opacity: .9; }
