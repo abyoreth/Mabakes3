@@ -68,8 +68,8 @@ section { padding: clamp(2.5rem, 4vw, 4.25rem) 0; }
 .menu-name { font-family: 'Sacramento', serif; font-size: 1.5rem; margin: .85rem 0 .35rem; }
 .menu-desc { color: var(--muted); font-size: .98rem; }
 .btn { display: inline-block; padding: .8rem 1.2rem; border-radius: 10px; font-weight: 500; text-decoration: none; }
-.btn-outline2 { color: #000; border: 1px solid rgba(255,255,255,.7); background: rgba(0,0,0,.15); box-shadow: var(--shadow); transition: transform .25s ease, background .35s ease; }
-.btn-outline2:hover { transform: translateY(-2px); background: rgba(255,255,255,.12); }
+.btn-outline2 { color: #fff; border: 1px solid rgba(255,255,255,.7); background: rgba(99,68,46,100); box-shadow: var(--shadow); transition: transform .25s ease, background .35s ease; }
+.btn-outline2:hover { transform: translateY(-2px); background: rgba(134,88,55,100); }
 
 /* Events */
 .events { background: var(--cream); }
